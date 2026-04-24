@@ -1,15 +1,3 @@
-
-        // 1. Ways to print in javascript
-        //alert('me');
-        //document.write('this is document write');
-        
-        // 2.Javascript console API
-        // console.log('Hello World');
-        // console.warn('This is a warning');
-        // console.error('This is an error');
-
-
-
 //1.Stack
 const myStack = [];
 myStack.push('a');
@@ -222,7 +210,7 @@ const [, role, isAdmin] = user;
 console.log(role, isAdmin);
 
 
-let cart = [{ id: 1, name: "Mouse", quantity: 1 }];
+let cart = [{ id: 1, name: "Gaming Mouse", quantity: 1 }];
 const newItem = { id: 2, name: "Headphones", quantity: 1 };
 cart = [...cart, newItem];
 cart = cart.map(item => item.id === 1 ? { ...item, quantity: item.quantity + 1 } : item);
